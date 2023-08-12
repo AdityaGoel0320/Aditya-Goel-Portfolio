@@ -1,4 +1,4 @@
-let arr = [
+let skillArr = [
     {
         name: "HTML",
         img: "Images/html.webp",
@@ -133,4 +133,4 @@ let arr = [
 ]
 
 
-module.exports = arr; 
+module.exports = skillArr; 

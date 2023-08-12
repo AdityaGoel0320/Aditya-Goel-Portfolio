@@ -1,9 +1,10 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import HomePage from './Pages/HomePage';
-import AboutPage from './Pages/AboutPage';
 import ProjectsPage from './Pages/ProjectsPage';
 import ContactPage from './Pages/ContactPage';
+import SkillPage from './Pages/SkillPage';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
     <>
     <Navbar/>
     <HomePage/>
-    <AboutPage/>
+    <SkillPage/>
     <ProjectsPage/>
     <ContactPage/>
-    
+    <Footer/>
     </>
   );
 }

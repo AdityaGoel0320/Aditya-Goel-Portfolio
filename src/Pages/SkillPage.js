@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import SkillCard from '../components/SkillCard'
-import arr from '../components/arr'
-const AboutPage = () => {
+import arr from '../components/SkillArr'
+
+const SkillPage = () => {
     const [skillarr, setskillarr] = useState(arr)
     let filterItem = (clickedType) => {
 
@@ -19,9 +20,8 @@ const AboutPage = () => {
         }
     }
     return (
-
-
         <>
+
 
 
             <div className='bg-orange-300  '>
@@ -46,7 +46,7 @@ const AboutPage = () => {
                             // return <CSkill className="mx-24" name={x.name} img={x.img} />
 
 
-                            return <SkillCard className="mx-24" name={x.name} img={x.img}/>
+                            return <SkillCard className="mx-24" name={x.name} img={x.img} />
                         })
                     }
                 </div>
@@ -55,9 +55,9 @@ const AboutPage = () => {
 
 
             </div>
-        </>
 
+        </>
     )
 }
 
-export default AboutPage
+export default SkillPage

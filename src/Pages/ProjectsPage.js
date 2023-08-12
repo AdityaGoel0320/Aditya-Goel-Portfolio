@@ -2,7 +2,10 @@ import React from 'react'
 
 const ProjectsPage = () => {
   return (
-    <div>ProjectsPage</div>
+    <>
+    <h2>ProjectsPage</h2>
+    {/* poject array */}
+    </>
   )
 }
 
