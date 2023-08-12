@@ -1,5 +1,4 @@
 import React from 'react'
-
 const SkillCard = (props) => {
   let { name, img } = props;
   return (

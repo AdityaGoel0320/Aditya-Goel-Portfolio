@@ -44,8 +44,8 @@ const SkillPage = () => {
 
                 </div>
 
-                {/* <div className='techstack_container flex justify-center items-center flex-wrap m-5 gap-5'> */}
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 m-12 p-3">
+                <div className='techstack_container flex justify-center items-center flex-wrap m-5 gap-5'>
+                {/* <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 m-12 p-3"> */}
 
                     {
                         skillarr.map((x) => {
