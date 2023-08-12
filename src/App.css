@@ -1,4 +1,165 @@
-body{
+body {
   background-color: black;
   color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+
+
+
+}
+
+h2 {
+  font-size: 3.5rem;
+
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+h4 {
+  font-size: 2rem;
+
+}
+
+p {
+  font-size: 1rem;
+}
+
+#i {
+  font-size: 3rem;
+}
+
+
+
+#i:hover {
+  color: blue;
+}
+
+a {
+  color: black;
+}
+
+/* Apply font families to different elements */
+
+/* Headings (H1, H2, H3, etc.) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Subtopics and Body Text */
+p,
+span,
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+/* Buttons */
+button,
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* You can adjust the weight according to your preference */
+}
+
+
+
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
+} */
+
+
+
+@media (max-width : 320px) {
+  html {
+    font-size: 35%;
+  }
+
+}
+
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+  html {
+    font-size: 43.75%;
+  }
+
+}
+
+@media (min-width : 481px) and (max-width : 768px) {
+  html {
+    font-size: 53.125%;
+  }
+
+}
+
+@media (min-width : 769px) and (max-width : 1023px) {
+  html {
+    font-size: 62.5%;
+  }
+
+}
+
+
+@media (min-width : 1024px) and (max-width : 1200px) {
+  html {
+    font-size: 71.85%;
+  }
+
+}
+
+
+@media (min-width : 1201px) {
+  html {
+    font-size: 77%;
+  }
+
 }
