@@ -1,9 +1,9 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import ProjectsPage from './components/ProjectsPage';
-import ContactPage from './components/ContactPage';
+import HomePage from './Pages/HomePage';
+import AboutPage from './Pages/AboutPage';
+import ProjectsPage from './Pages/ProjectsPage';
+import ContactPage from './Pages/ContactPage';
 
 function App() {
   return (
