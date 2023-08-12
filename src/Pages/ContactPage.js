@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import "./contact.css"
 const ContactPage = () => {
 
 
@@ -22,12 +22,12 @@ const ContactPage = () => {
 
     return (
       <>
-        <div>ContactPage</div>
+        <h3>ContactPage</h3>
 
 
         <div id="Contact">
           <div className="Contact_head">
-            <p>Connect with me</p>
+            <h3>Connect with me</h3>
           </div>
           <div className="Contact_intro">
             <p>I'm always happy to connect and learn new things! You can reach out to me by filling out the form below</p>

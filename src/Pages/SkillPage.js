@@ -24,29 +24,32 @@ const SkillPage = () => {
 
 
 
-            <div className='bg-orange-300  '>
-                <h1 className='text-3xl font-bold uppercase flex justify-center items-center m-5'>
+            <div className=''>
+                <h1 className='skills flex justify-center items-center'>
 
-                    TechStack
+                    SKILLS
                 </h1>
 
 
 
-                <div className="text-3xl-m-5 p-3 bg-white " id='techStackBtn'>
-                    <button className='' onClick={() => filterItem("All")}>All</button>
-                    <button onClick={() => filterItem("Frontend")}>frontend</button>
-                    <button onClick={() => filterItem("Backend")}>Backend</button>
-                    <button onClick={() => filterItem("Other")}>Other</button>
+                <div className="flex justify-center items-center">
+                    <div className="small_nav" id='techStackBtn'>
+
+                        <button className='' onClick={() => filterItem("All")}>All</button>
+                        <button onClick={() => filterItem("Frontend")}>Frontend</button>
+                        <button onClick={() => filterItem("Backend")}>Backend</button>
+                        <button onClick={() => filterItem("Other")}>Other</button>
+
+                    </div>
 
                 </div>
 
-                <div className='techstack_container flex justify-center items-center flex-wrap m-5 gap-5'>
+                {/* <div className='techstack_container flex justify-center items-center flex-wrap m-5 gap-5'> */}
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 m-12 p-3">
+
                     {
                         skillarr.map((x) => {
-                            // return <CSkill className="mx-24" name={x.name} img={x.img} />
-
-
-                            return <SkillCard className="mx-24" name={x.name} img={x.img} />
+                            return <SkillCard className="" name={x.name} img={x.img} />
                         })
                     }
                 </div>
