@@ -6,7 +6,6 @@ const ProjectCard = (props) => {
 
     return (
         <>
-            <div>ProjectCard</div>
 
             <div className="flex">
                 <div className="flex flex-col">

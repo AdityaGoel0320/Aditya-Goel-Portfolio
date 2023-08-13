@@ -24,30 +24,25 @@ const SkillPage = () => {
 
 
 
-            <div className=''>
+            <div className='skill_main_div'>
                 <h1 className='skills flex justify-center items-center'>
-
                     SKILLS
                 </h1>
 
 
-
-
-
                 <div className="flex justify-center items-center">
-                    <div className="small_nav" id='techStackBtn'>
+                    <div className="small_nav " id='techStackBtn'>
 
-                        <button className='' onClick={() => filterItem("All")}>All</button>
-                        <button onClick={() => filterItem("Frontend")}>Frontend</button>
-                        <button onClick={() => filterItem("Backend")}>Backend</button>
-                        <button onClick={() => filterItem("Other")}>Other</button>
+                        <button className='btn_small btn' onClick={() => filterItem("All")}>All</button>
+                        <button className='btn_small btn' onClick={() => filterItem("Frontend")}>Frontend</button>
+                        <button className='btn_small btn' onClick={() => filterItem("Backend")}>Backend</button>
+                        <button className='btn_small btn' onClick={() => filterItem("Other")}>Other</button>
 
                     </div>
 
                 </div>
 
-                <div className='techstack_container flex justify-center items-center flex-wrap m-5 gap-5'>
-                {/* <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 m-12 p-3"> */}
+                <div className='techstack_container'>
 
                     {
                         skillarr.map((x) => {

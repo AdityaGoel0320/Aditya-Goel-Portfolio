@@ -124,7 +124,6 @@ a {
 }
 
 /* skill page css */
-
 .skills {
   margin: 5rem;
 }
@@ -137,23 +136,39 @@ a {
   gap: 3rem;
 
   font-size: 1.5rem;
-  background-color: white;
   border: 1px solid black;
   border-radius: 5rem;
   /* width: fit-content; */
 }
 
+.techstack_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12rem;
+}
 
+.btn {
+  background-color: #FFD700;
+  margin-bottom: 1rem;
 
-button {
-  /* background-color: white;
-  color: black; */
-  color: black;
+  font-weight: bolder;
   padding: 1rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  font-size: 2.5rem;
+}
+
+.btn:hover {
+  background-color: black;
+  background-color: red;
+  font-weight: bolder;
+  color: white;
 }
 
 .skill_box {
-  width: 15rem;
+  /* width: 15rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,11 +177,9 @@ button {
   padding: 1rem;
   margin: 1rem;
   border-radius: 5rem;
+  width: 18rem;
 }
 
-.skill_box:hover {
-  border: 3px solid red;
-}
 
 .skill_img {
   height: 5rem;
@@ -184,9 +197,10 @@ button {
 
 
 
-
-
-
+/* project page css */
+.project_container{
+  border: 2px solid red;
+}
 
 
 
