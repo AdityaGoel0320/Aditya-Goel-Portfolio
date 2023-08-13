@@ -6,16 +6,17 @@ import ContactPage from './Pages/ContactPage';
 import SkillPage from './Pages/SkillPage';
 import Footer from './Pages/Footer';
 
+
 function App() {
   return (
-   
+
     <>
-    <Navbar/>
-    <HomePage/>
-    <SkillPage/>
-    <ProjectsPage/>
-    <ContactPage/>
-    <Footer/>
+        <Navbar />
+        <HomePage />
+        <SkillPage />
+        <ProjectsPage />
+        <ContactPage />
+        <Footer />
     </>
   );
 }

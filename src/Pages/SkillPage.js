@@ -32,6 +32,8 @@ const SkillPage = () => {
 
 
 
+
+
                 <div className="flex justify-center items-center">
                     <div className="small_nav" id='techStackBtn'>
 
