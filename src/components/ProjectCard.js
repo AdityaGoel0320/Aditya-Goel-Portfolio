@@ -7,15 +7,15 @@ const ProjectCard = (props) => {
     return (
         <>
 
-            <div className="flex">
-                <div className="flex flex-col">
-                    <div className="flex justify-center items-center">
+            <div className="flex project_card">
+                <div className="flex flex-col gap-3 ">
+                    <div className="prject_heads flex justify-center items-center">
                         <h3>{name}</h3>
-                        <a href={link} target='_blank'>Link</a>
-                        <a href={repo} target='_blank'>repo</a>
+                        <a className='a' href={repo} target='_blank'><i id='project_icon' class="fa-brands fa-github "></i></a>
+                        <a href={link} target='_blank'><i id="project_icon" class="fa-sharp fa-solid fa-link "></i></a>
                     </div>
-                    <p>{desc}</p>
-                    <div className="flex justify-center items-center">
+                    <p className='project_desc'>{desc}</p>
+                    <div className=" z flex justify-center items-center">
 
                         {
                             techUsed.map((x) => {
@@ -25,8 +25,8 @@ const ProjectCard = (props) => {
                     </div>
 
                 </div>
-                <div className="img">
-                    <img src={img} alt="" />
+                <div className="">
+                    <img className="img" src={img} alt="" />
 
                 </div>
 

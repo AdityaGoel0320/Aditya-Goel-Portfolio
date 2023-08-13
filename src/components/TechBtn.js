@@ -5,7 +5,7 @@ const TechBtn = (props) => {
 
     return (
         <>
-            <button className='btn'>
+            <button className='project_btn'>
                 {name}
             </button>
         </>

@@ -198,17 +198,85 @@ a {
 
 
 /* project page css */
-.project_container{
-  border: 2px solid red;
+/* .project_container {
+} */
+
+
+
+.project_card {
+  margin: 3rem;
+  padding: 5rem;
+  gap: 3rem;
 }
 
+.prject_heads {
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.a {
+  font-size: 0.5rem;
+}
+
+.project_desc {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.z {
+  gap: 2rem;
+}
+
+.project_btn {
+  background-color: #212121;
+  margin-bottom: 1rem;
+
+  font-weight: bolder;
+  padding: 1rem;
+  border: 1px solid black;
+  text-transform: uppercase;
+  gap: 1rem;
+
+}
+
+#project_icon {
+  font-size: 1.6rem;
+    color: white;
+  
+  
+  
+  
+}
+
+#project_icon:hover {
+  color: blue;
+}
 
 
 @media (max-width : 320px) {
   html {
     font-size: 35%;
   }
+
+  .project_card {
+    flex-direction: column-reverse;
+    align-items: center;
+
+  }
+
+  img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    text-align: center;
+  }
+
 
 }
 
@@ -219,11 +287,40 @@ a {
     font-size: 43.75%;
   }
 
+  .project_card {
+    flex-direction: column-reverse;
+    align-items: center;
+
+  }
+
+  img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    text-align: center;
+  }
+
 }
 
 @media (min-width : 481px) and (max-width : 768px) {
   html {
     font-size: 53.125%;
+  }
+
+  .project_card {
+    flex-direction: column-reverse;
+    align-items: center;
+
+  }
+
+  img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
   }
 
 }
@@ -232,6 +329,8 @@ a {
   html {
     font-size: 62.5%;
   }
+
+
 
 }
 
