@@ -22,12 +22,14 @@ const ContactPage = () => {
 
     return (
       <>
-        <h3>ContactPage</h3>
 
 
         <div id="Contact">
           <div className="Contact_head">
-            <h3>Connect with me</h3>
+            {/* <h3>e</h3> */}
+            <h1 className='skills flex justify-center items-center '>
+            Connect with me
+      </h1>
           </div>
           <div className="Contact_intro">
             <p>I'm always happy to connect and learn new things! You can reach out to me by filling out the form below</p>
@@ -39,7 +41,7 @@ const ContactPage = () => {
               <input type='text' name='Content' placeholder='Topic of interest' required value={Content} onChange={HandleChange} />
 
 
-              <button type='submit' >Send</button>
+              <button className='resume_btn' type='submit' >Send</button>
 
             </form>
 
