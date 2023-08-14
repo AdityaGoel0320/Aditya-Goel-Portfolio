@@ -27,12 +27,12 @@ const ProjectArr = [
         techUsed: [ "JavaScript", "HTML", "CSS", ],
     },
     {
-        name: "",
-        img: "./Images/",
-        repo: "",
-        link: "",
-        desc: "",
-        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
+        name: "ExpeditionXplorer.com",
+        img: "./Images/ExpeditionXplorer.png",
+        repo: "https://github.com/AdityaGoel0320/ExpeditionXplorer-Reactjs",
+        link: "https://expedition-xplorer-reactjs.vercel.app/",
+        desc: "This website showcases my ReactJS skills in managing API-based data and state management. It also demonstrates my ability to design a real-life travel website using CSS. The result is a beautifully crafted product that I'm proud of. ",
+        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS" , "TailWindCss"],
     },
    
 
