@@ -27,7 +27,7 @@ const HomePage = () => {
                             <i id='i' className="fa-brands fa-x-twitter"></i>
                         </a>
                         <button className='resume_btn'>
-                            <a target='_blank' href="https://drive.google.com/file/d/1u1DUVwBOf2mLgqAc_4pOjf2AHqsDQQQ7/view">
+                            <a target='_blank' href="https://drive.google.com/file/d/1H5h2dMrJIlpxpfZEX33YdJ5e9Ql93kU-/view?usp=sharing">
                                 <span className='resume_span'>Resume</span>
                             </a>
                         </button>
