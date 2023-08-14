@@ -58,7 +58,8 @@ a {
 
 .home_box {
   padding: 5rem;
-  margin: 5rem;
+  margin: 3rem;
+  margin-top: 2rem;
   gap: 3rem;
   display: flex;
   justify-items: center;
