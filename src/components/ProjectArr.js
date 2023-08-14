@@ -1,4 +1,22 @@
 const ProjectArr = [
+
+    {
+        name: "ExpeditionXplorer.com",
+        img: "./Images/ExpeditionXplorer.png",
+        repo: "https://github.com/AdityaGoel0320/ExpeditionXplorer-Reactjs",
+        link: "https://expedition-xplorer-reactjs.vercel.app/",
+        desc: "This website showcases my ReactJS skills in managing API-based data and state management. It also demonstrates my ability to design a real-life travel website using CSS. The result is a beautifully crafted product that I'm proud of. ",
+        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS" , "TailWindCss"],
+    },
+    {
+        name: "Reactjs Advanced Cart System",
+        img: "./Images/cart.png",
+        repo: "https://github.com/AdityaGoel0320/Reactjs-Advanced-Cart-System",
+        link: "https://reactjs-advanced-cart.vercel.app/",
+        desc: "This is a highly realistic cart system. In this project, I have utilized advanced state management techniques to create a scalable cart and make all data dynamic. All products are fetched using API data. I have also employed various hooks for advanced state management, such as useEffect(), useContext(), useState(), and many other JavaScript concepts.",
+        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
+    }
+    , 
     {
         name: "Dynamic Pizza Paradise: A React-Tailwind Delight !",
         img: "./Images/pizza.png",
@@ -20,58 +38,23 @@ const ProjectArr = [
 
     {
         name: "Nostalgia Arcade: Relive Classics in Modern Style!",
-        img: "./Images/avatar.jpg",
-        repo: "https://github.com/AdityaGoel0320/ReactJs-Styled-Components-Website",
-        link: "https://react-js-styled-components-website.vercel.app/",
+        img: "./Images/game.png",
+        repo: "https://github.com/AdityaGoel0320/Game_center_Javascript",
+        link: "https://game-center-javascript.vercel.app/",
         desc: "Transform your passion for gaming into a mesmerising web experience with our Game Center app, where classic games meet modern JavaScript mastery. Engage users with dynamic gameplay, responsive design, and a touch of nostalgia.🎮🌟",
         techUsed: [ "JavaScript", "HTML", "CSS", ],
     },
-    {
-        name: "ExpeditionXplorer.com",
-        img: "./Images/ExpeditionXplorer.png",
-        repo: "https://github.com/AdityaGoel0320/ExpeditionXplorer-Reactjs",
-        link: "https://expedition-xplorer-reactjs.vercel.app/",
-        desc: "This website showcases my ReactJS skills in managing API-based data and state management. It also demonstrates my ability to design a real-life travel website using CSS. The result is a beautifully crafted product that I'm proud of. ",
-        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS" , "TailWindCss"],
-    },
-   
+  
+    // {
+    //     name: "",
+    //     img: "./Images/",
+    //     repo: "",
+    //     link: "",
+    //     desc: "",
+    //     techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
+    // },
 
-    {
-        name: "",
-        img: "./Images/",
-        repo: "",
-        link: "",
-        desc: "",
-        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
-    },{
-        name: "",
-        img: "./Images/",
-        repo: "",
-        link: "",
-        desc: "",
-        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
-    },{
-        name: "",
-        img: "./Images/",
-        repo: "",
-        link: "",
-        desc: "",
-        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
-    },{
-        name: "",
-        img: "./Images/",
-        repo: "",
-        link: "",
-        desc: "",
-        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
-    },{
-        name: "",
-        img: "./Images/",
-        repo: "",
-        link: "",
-        desc: "",
-        techUsed: ["ReactJS", "JavaScript", "HTML", "CSS"],
-    },
-];
+   
+  ];
 
 export default ProjectArr;
