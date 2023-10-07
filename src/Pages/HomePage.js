@@ -6,7 +6,7 @@ const HomePage = () => {
             <div className="home_box">
                 <div className="">
                     <h1>
-                        Myself <span className="my_name">Aditya Goel</span>
+                        Hi, I'm <span className="my_name">Aditya Goel</span>
                     </h1>
                     <h3>
                         Front-end Web Developer
