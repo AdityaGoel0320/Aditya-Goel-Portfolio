@@ -9,7 +9,7 @@ const HomePage = () => {
                         Myself <span className="my_name">Aditya Goel</span>
                     </h1>
                     <h3>
-                        Front-end Web Developer
+                        Full Stack Web Developer
                     </h3>
                     <br />
                     <h4>
