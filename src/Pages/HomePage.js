@@ -34,7 +34,7 @@ opportunities in the field.
                             <i id='i' className="fa-brands fa-x-twitter"></i>
                         </a>
                         <button className='resume_btn'>
-                            <a target='_blank' href="https://drive.google.com/file/d/1H5h2dMrJIlpxpfZEX33YdJ5e9Ql93kU-/view?usp=sharing">
+                            <a target='_blank' href="https://drive.google.com/file/d/1jMoHjjD08jXduT7Op2I3OikWB3uwlSdg/view?usp=drivesdk">
                                 <span className='resume_span'>Resume</span>
                             </a>
                         </button>
